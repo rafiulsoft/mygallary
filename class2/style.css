@@ -1,0 +1,86 @@
+body{
+    margin: o;
+}
+.gallarysection{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.gallaryimg{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: 469px;
+    width: 100%;
+    object-fit: cover;
+}
+.aboutus1{
+    background-color: rgb(232, 244, 244);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.aboutus{
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+h1{
+font-size: 50px;
+margin: 0;
+
+}
+p{
+font-size: initial;
+margin: 0;
+line-height: 25px;
+}
+.gallary1{
+    background-color: rgb(221, 236, 239);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+
+.car1{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    
+
+}
+.car2{
+    max-width: 37%;
+    flex-basis: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+color: white;
+padding: 30px;
+text-align: center;
+
+}
+.car3{
+max-width: 40%;
+flex-basis: 40%;
+border-radius: 60%;
+
+}
